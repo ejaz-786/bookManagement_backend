@@ -49,6 +49,36 @@ This Node.js (Express) application provides a RESTful API for managing books. Us
   }
   ```
 
-  ## Instruction to use
+## Instruction to use
 
-  ## Assumptions and Decisions for creating the API'S for book management.
+1. clone the repository
+
+```bash
+ git clone https://github.com/ejaz-786/bookManagement_backend.git
+ cd bookManagement
+```
+
+2. Install the required dependencies:
+
+```bash
+  npm install
+```
+
+3. Configure the MongoDB
+
+- Set up a MongoDB database either locally or use a cloud solution like MongoDB Atlas.copy the connection string and paste it to .env file.
+- Update the mongoURI in .env file with your MongoDB connection URI.
+
+4. Start the application
+
+```bash
+  npm run dev
+```
+
+## Assumptions and Decisions for creating the API'S for book management.
+
+- while creating the API's for book mangement i took care of well folder structured.
+- I handled all the possible edge case like error handling.
+- Handled asyc await error and make a calss ErrorHandler for throwing errors.
+- used middleware
+- used cors so that i can use in frontend without having trouble.
