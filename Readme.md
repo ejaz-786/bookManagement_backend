@@ -82,3 +82,8 @@ This Node.js (Express) application provides a RESTful API for managing books. Us
 - Handled asyc await error and make a calss ErrorHandler for throwing errors.
 - used middleware
 - used cors so that i can use in frontend without having trouble.
+
+## Deployment process - Render.com
+
+- go to render.com => dashboard => if not logged in then logged in via github
+- select your git repository => click on new button select web services and deploy
