@@ -1,0 +1,12 @@
+{
+  "name": "bookmanagement_backend",
+  "version": "1.0.0",
+  "description": "all crud restFull api of book management using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Mohammad Ejaz - (kingejaz143@gmail.com)",
+  "license": "ISC"
+}
