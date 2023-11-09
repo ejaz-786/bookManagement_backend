@@ -1,4 +1,5 @@
 import { catchAsyncHandler } from "../middleware/catchAsyncHandler.js";
+import ErrorHandler from "../utils/apiError.js";
 import Book from "../models/book.model.js";
 
 // 1. create a new Book - POST /books
